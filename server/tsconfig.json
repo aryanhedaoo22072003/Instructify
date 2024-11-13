@@ -1,11 +1,9 @@
-{
-  
-"compilerOptions": {
-       "target": "ES2020",               // Set to your desired target (like ES6, ES2020, etc.)
-      "module": "NodeNext",             // Required for using ES modules
-      "moduleResolution": "NodeNext",   // Ensures proper resolution for NodeNext modules
-      "esModuleInterop": true,          // Enables default imports for CommonJS
-      "skipLibCheck": true,             // Speeds up compilation by skipping type checks in libraries
+{"compilerOptions": {
+       "target": "ES2020",               
+      "module": "NodeNext",             
+      "moduleResolution": "NodeNext",   
+      "esModuleInterop": true,         
+      "skipLibCheck": true,             
       "forceConsistentCasingInFileNames": true,
       "strict": true,
       "baseUrl": "./",
@@ -19,5 +17,5 @@
     "exclude": [
       "node_modules"
     ]
-  }
+}
   
